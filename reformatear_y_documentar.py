@@ -1,12 +1,12 @@
 #Ejercicio 1 (falta un espacio entre el "#" e la palabra "Ejercicio".
-temperatura1 = int(input("Introduce a temperatura del día 1 en grados celsius: ")) # Usar nombres más descriptivos y claros para las variables.
-temperatura2 = int(input("Introduce a temperatura del día 2 en grados celsius: "))
-temperatura3 = int(input("Introduce a temperatura del día 3 en grados celsius: "))
-temperatura4 = int(input("Introduce a temperatura del día 4 en grados celsius: "))
-temperatura5 = int(input("Introduce a temperatura del día 5 en grados celsius: "))
-temperatura6 = int(input("Introduce a temperatura del día 6 en grados celsius: "))
-temperatura7 = int(input("Introduce a temperatura del día 7 en grados celsius: "))
-listaTemperaturas = (temperatura1,temperatura2,temperatura3,temperatura4,temperatura5,temperatura6,temperatura7) # Usar nombres de variables más claros y descriptivos.
+temperaturaLunes = int(input("Introduce a temperatura del día 1 en grados celsius: ")) # Usar nombres más descriptivos y claros para las variables.
+temperaturaMartes = int(input("Introduce a temperatura del día 2 en grados celsius: "))
+temperaturaMiercoles = int(input("Introduce a temperatura del día 3 en grados celsius: "))
+temperaturaJueves = int(input("Introduce a temperatura del día 4 en grados celsius: "))
+temperaturaViernes = int(input("Introduce a temperatura del día 5 en grados celsius: "))
+temperaturaSabado = int(input("Introduce a temperatura del día 6 en grados celsius: "))
+temperaturaDomingo = int(input("Introduce a temperatura del día 7 en grados celsius: "))
+listaTemperaturas = (temperaturaLunes,temperaturaMartes,temperaturaMiercoles,temperaturaJueves,temperaturaViernes,temperaturaSabado,temperaturaDomingo) # Usar nombres de variables más claros y descriptivos.
 
 #Ejercicio 2
 media = sum(listaTemperaturas) / 7
@@ -23,40 +23,40 @@ print(calculoDias(contador))
 #Ejercicio 4
 for valor in listaTemperaturas:
     if valor>media:
-        if valor == temperatura1: # En los print tendremos que aplicar la regla de los >79 caracteres, hay que hacerlo más corto.
+        if valor == temperaturaLunes: # En los print tendremos que aplicar la regla de los >79 caracteres, hay que hacerlo más corto.
             print(
                 "El lunes la temperatura estuvo por encima de la media "
-                "ya que ese día hizo", temperatura1, "grados"
+                "ya que ese día hizo", temperaturaLunes, "grados"
             )
 
-        elif valor == temperatura2:
+        elif valor == temperaturaMartes:
             print(
                 "El martes la temperatura estuvo por encima de la media "
-                "ya que ese día hizo", temperatura1, "grados"
+                "ya que ese día hizo", temperaturaLunes, "grados"
             )
 
-        elif valor == temperatura3:
+        elif valor == temperaturaMiercoles:
             print(
                 "El miércoles la temperatura estuvo por encima de la media "
-                "ya que ese día hizo", temperatura1, "grados"
+                "ya que ese día hizo", temperaturaLunes, "grados"
             )
-        elif valor == temperatura4:
+        elif valor == temperaturaJueves:
             print(
                 "El jueves la temperatura estuvo por encima de la media "
-                "ya que ese día hizo", temperatura1, "grados"
+                "ya que ese día hizo", temperaturaLunes, "grados"
             )
-        elif valor == temperatura5:
+        elif valor == temperaturaViernes:
             print(
                 "El viernes la temperatura estuvo por encima de la media "
-                "ya que ese día hizo", temperatura1, "grados"
+                "ya que ese día hizo", temperaturaLunes, "grados"
             )
-        elif valor == temperatura6:
+        elif valor == temperaturaSabado:
             print(
                 "El sabado la temperatura estuvo por encima de la media "
-                "ya que ese día hizo", temperatura1, "grados"
+                "ya que ese día hizo", temperaturaLunes, "grados"
             )
-        elif valor == temperatura7:
+        elif valor == temperaturaDomingo:
             print((
                 "El domingo la temperatura estuvo por encima de la media "
-                "ya que ese día hizo", temperatura1, "grados"
+                "ya que ese día hizo", temperaturaLunes, "grados"
             ))
